@@ -1,0 +1,2047 @@
+{
+ "titulo": "Árbol genealógico Leblic",
+ "conexion_lucas": "por determinar",
+ "editar": "https://github.com/lucasague/personal/edit/main/proyectos/miniproyectos/arbol-genealogico/datos/personas/",
+ "carpeta": "https://github.com/lucasague/personal/tree/main/proyectos/miniproyectos/arbol-genealogico/datos/personas",
+ "nuevo": "https://github.com/lucasague/personal/new/main/proyectos/miniproyectos/arbol-genealogico/datos/personas",
+ "ocultas": 65,
+ "personas": [
+  {
+   "id": "ali-bey",
+   "nombre": "Domingo Badía y Leblich, «Alí Bey»",
+   "nacimiento": "1767",
+   "defuncion": "1818",
+   "lugar": "Barcelona",
+   "oficio": "explorador y espía (viajó por el mundo islámico como Alí Bey el Abbasí)",
+   "padres": [
+    "pedro-badia",
+    "catalina-leblic-1742"
+   ],
+   "conyuges": [
+    "maria-luisa-berruezo"
+   ],
+   "generacion": 4,
+   "fuente": "anotación a mano en el árbol impreso, col. 4",
+   "dudoso": true,
+   "conexion_lucas": "por determinar",
+   "datos": "Escrito «ALI BEY = Mª Luisa Berrueco», unido con una llave a Catalina y Pedro Badía. Fechas de las biografías públicas (no del árbol): nació en Barcelona en 1767 y murió en 1818 (otras fuentes, 1822). Fuentes: es.wikipedia.org/wiki/Domingo_Badía.",
+   "dudas": [
+    "Las fechas no vienen en el árbol: son de fuentes públicas, que discrepan en la de muerte (1818 o 1822)."
+   ],
+   "notas": [],
+   "otras": {},
+   "hijos": [],
+   "conyuges_ocultos": 0,
+   "hijos_ocultos": 0,
+   "padres_ocultos": 0
+  },
+  {
+   "id": "amparo-fluiter-1880",
+   "nombre": "Amparo Fluiter",
+   "nacimiento": "1880",
+   "defuncion": "1968",
+   "lugar": "",
+   "oficio": "",
+   "padres": [],
+   "conyuges": [
+    "horacio-leblic-1875"
+   ],
+   "generacion": 7,
+   "fuente": "árbol impreso, col. 7",
+   "dudoso": false,
+   "conexion_lucas": "por determinar",
+   "datos": "Impreso «Amparo Fluiter (.1880-1968)», subrayado el apellido (consorte).",
+   "dudas": [],
+   "notas": [],
+   "otras": {},
+   "hijos": [
+    "soledad-leblic-1901",
+    "dolores-leblic-1909",
+    "antonio-leblic-1914",
+    "horacio-leblic-1916",
+    "rafael-leblic-1921",
+    "josefa-leblic-1924"
+   ],
+   "conyuges_ocultos": 0,
+   "hijos_ocultos": 1,
+   "padres_ocultos": 0
+  },
+  {
+   "id": "angel-leblic-1874",
+   "nombre": "Ángel Leblic",
+   "nacimiento": "1874",
+   "defuncion": "",
+   "lugar": "",
+   "oficio": "",
+   "padres": [
+    "antonio-leblic-1851",
+    "petronila-acevedo-1854"
+   ],
+   "conyuges": [],
+   "generacion": 7,
+   "fuente": "árbol impreso, col. 7",
+   "dudoso": false,
+   "conexion_lucas": "por determinar",
+   "datos": "Impreso «Angel (.1874 - ?) s/d».",
+   "dudas": [],
+   "notas": [],
+   "otras": {},
+   "hijos": [],
+   "conyuges_ocultos": 0,
+   "hijos_ocultos": 0,
+   "padres_ocultos": 0
+  },
+  {
+   "id": "angela-de-sosa-1766",
+   "nombre": "Ángela de Sosa",
+   "nacimiento": "1766",
+   "defuncion": "1835",
+   "lugar": "Talavera",
+   "oficio": "",
+   "padres": [],
+   "conyuges": [
+    "juan-leblic-1759"
+   ],
+   "generacion": 4,
+   "fuente": "árbol impreso, col. 4",
+   "dudoso": false,
+   "conexion_lucas": "por determinar",
+   "datos": "Impreso «Angela de Sosa (. 1766 - 1835) (Talavera)», subrayada (consorte).",
+   "dudas": [],
+   "notas": [],
+   "otras": {},
+   "hijos": [
+    "jose-antonio-leblic-1800",
+    "joaquin-leblic-1802",
+    "mariano-leblic"
+   ],
+   "conyuges_ocultos": 0,
+   "hijos_ocultos": 0,
+   "padres_ocultos": 0
+  },
+  {
+   "id": "aniceto-leblic-1880",
+   "nombre": "Aniceto Leblic",
+   "nacimiento": "1880",
+   "defuncion": "",
+   "lugar": "",
+   "oficio": "",
+   "padres": [
+    "antonio-leblic-1851",
+    "petronila-acevedo-1854"
+   ],
+   "conyuges": [],
+   "generacion": 7,
+   "fuente": "árbol impreso, col. 7",
+   "dudoso": false,
+   "conexion_lucas": "por determinar",
+   "datos": "Impreso «Aniceto (.1880 - ?) s/d».",
+   "dudas": [],
+   "notas": [],
+   "otras": {},
+   "hijos": [],
+   "conyuges_ocultos": 0,
+   "hijos_ocultos": 0,
+   "padres_ocultos": 0
+  },
+  {
+   "id": "antonia-iglesias",
+   "nombre": "Antonia Iglesias",
+   "nacimiento": "",
+   "defuncion": "",
+   "lugar": "",
+   "oficio": "",
+   "padres": [],
+   "conyuges": [
+    "joaquin-leblic-1802"
+   ],
+   "generacion": 5,
+   "fuente": "árbol impreso, col. 5",
+   "dudoso": true,
+   "conexion_lucas": "por determinar",
+   "datos": "Impreso «2º = Antonia Iglesias», subrayada (consorte). Segunda mujer de Joaquín; de este matrimonio salen Vicente, Trinidad, Félix, Antonio y Francisco.",
+   "dudas": [
+    "Se atribuye a Joaquín porque el «2º =» está en su columna, debajo de su «1º =»."
+   ],
+   "notas": [],
+   "otras": {},
+   "hijos": [
+    "vicente-leblic-1846",
+    "felix-leblic-1849",
+    "antonio-leblic-1851",
+    "francisco-leblic-bonamora",
+    "trinidad-leblic"
+   ],
+   "conyuges_ocultos": 0,
+   "hijos_ocultos": 0,
+   "padres_ocultos": 0
+  },
+  {
+   "id": "antonia-leblic-1763",
+   "nombre": "Antonia Leblic",
+   "nacimiento": "1763",
+   "defuncion": "",
+   "lugar": "",
+   "oficio": "",
+   "padres": [
+    "francisco-leblic-1739",
+    "teresa-bernofa-1740"
+   ],
+   "conyuges": [],
+   "generacion": 4,
+   "fuente": "anotación a mano en el árbol impreso, col. 4",
+   "dudoso": true,
+   "conexion_lucas": "por determinar",
+   "datos": "Uno de cinco nombres escritos a mano en una llave a la que llega una flecha desde la rama de Francisco y Teresa; al lado, «S/desc.» (sin descendencia).",
+   "dudas": [
+    "Se atribuyen a Francisco y Teresa por la flecha; la flecha pasa junto a Alí Bey y se podría leer como suya, pero Alí Bey nació en 1767 y estos nacen desde 1761.",
+    "«S/desc.» está junto al grupo: no queda claro si vale para todos."
+   ],
+   "notas": [],
+   "otras": {},
+   "hijos": [],
+   "conyuges_ocultos": 0,
+   "hijos_ocultos": 0,
+   "padres_ocultos": 0
+  },
+  {
+   "id": "antonia-leblic-acevedo",
+   "nombre": "Antonia Leblic",
+   "nacimiento": "",
+   "defuncion": "",
+   "lugar": "",
+   "oficio": "",
+   "padres": [
+    "antonio-leblic-1851",
+    "petronila-acevedo-1854"
+   ],
+   "conyuges": [],
+   "generacion": 7,
+   "fuente": "árbol impreso, col. 7",
+   "dudoso": false,
+   "conexion_lucas": "por determinar",
+   "datos": "Impreso «Antonia».",
+   "dudas": [],
+   "notas": [],
+   "otras": {},
+   "hijos": [],
+   "conyuges_ocultos": 0,
+   "hijos_ocultos": 0,
+   "padres_ocultos": 0
+  },
+  {
+   "id": "antonio-leblic-1851",
+   "nombre": "Antonio Leblic",
+   "nacimiento": "1851",
+   "defuncion": "1915",
+   "lugar": "",
+   "oficio": "",
+   "padres": [
+    "joaquin-leblic-1802",
+    "antonia-iglesias"
+   ],
+   "conyuges": [
+    "petronila-acevedo-1854"
+   ],
+   "generacion": 6,
+   "fuente": "árbol impreso, col. 6",
+   "dudoso": true,
+   "conexion_lucas": "por determinar",
+   "datos": "Impreso «Antonio (1851 - 1915) = Petronila Acevedo».",
+   "dudas": [
+    "El 1915 de Antonio parece retocado a mano; se lee 1915."
+   ],
+   "notas": [],
+   "otras": {},
+   "hijos": [
+    "ceferino-leblic-1873",
+    "angel-leblic-1874",
+    "prudencio-leblic-1876",
+    "aniceto-leblic-1880",
+    "joaquin-leblic-1880",
+    "julian-leblic-1880",
+    "vicente-leblic-1882",
+    "clemente-leblic-1889",
+    "antonia-leblic-acevedo",
+    "vicenta-leblic"
+   ],
+   "conyuges_ocultos": 0,
+   "hijos_ocultos": 0,
+   "padres_ocultos": 0
+  },
+  {
+   "id": "antonio-leblic-1914",
+   "nombre": "Antonio Leblic",
+   "nacimiento": "1914",
+   "defuncion": "",
+   "lugar": "",
+   "oficio": "",
+   "padres": [
+    "horacio-leblic-1875",
+    "amparo-fluiter-1880"
+   ],
+   "conyuges": [],
+   "generacion": 8,
+   "fuente": "árbol impreso, col. 8",
+   "dudoso": false,
+   "conexion_lucas": "por determinar",
+   "datos": "Impreso «Antonio (. 1914)».",
+   "dudas": [],
+   "notas": [],
+   "otras": {},
+   "hijos": [],
+   "conyuges_ocultos": 0,
+   "hijos_ocultos": 0,
+   "padres_ocultos": 0
+  },
+  {
+   "id": "aurora-leblic",
+   "nombre": "Aurora Leblic",
+   "nacimiento": "",
+   "defuncion": "",
+   "lugar": "",
+   "oficio": "",
+   "padres": [
+    "jose-leblic-1836",
+    "jeronima-rodriguez"
+   ],
+   "conyuges": [],
+   "generacion": 7,
+   "fuente": "árbol impreso, col. 7",
+   "dudoso": false,
+   "conexion_lucas": "por determinar",
+   "datos": "Impreso «Aurora ( . )».",
+   "dudas": [],
+   "notas": [],
+   "otras": {},
+   "hijos": [],
+   "conyuges_ocultos": 0,
+   "hijos_ocultos": 0,
+   "padres_ocultos": 0
+  },
+  {
+   "id": "bonamora",
+   "nombre": "BonaMora",
+   "nacimiento": "",
+   "defuncion": "",
+   "lugar": "",
+   "oficio": "",
+   "padres": [],
+   "conyuges": [
+    "francisco-leblic-bonamora"
+   ],
+   "generacion": 6,
+   "fuente": "árbol impreso, col. 6",
+   "dudoso": true,
+   "conexion_lucas": "por determinar",
+   "datos": "Impreso «BonaMora», subrayado (consorte).",
+   "dudas": [
+    "¿Nombre o apellido? Así, junto, en el impreso."
+   ],
+   "notas": [],
+   "otras": {},
+   "hijos": [
+    "francisco-leblic-1891",
+    "feliciano-leblic-bonamora"
+   ],
+   "conyuges_ocultos": 0,
+   "hijos_ocultos": 0,
+   "padres_ocultos": 0
+  },
+  {
+   "id": "catalina-leblic-1742",
+   "nombre": "Catalina Leblic",
+   "nacimiento": "1742",
+   "defuncion": "",
+   "lugar": "",
+   "oficio": "",
+   "padres": [
+    "jordi-leblic",
+    "caterina-mestre"
+   ],
+   "conyuges": [
+    "pedro-badia"
+   ],
+   "generacion": 3,
+   "fuente": "anotación a mano en el árbol impreso, col. 3",
+   "dudoso": true,
+   "conexion_lucas": "por determinar",
+   "datos": "Escrito «Cablina (1742) = Domingo Pedro Badía». Es la madre de Alí Bey: las biografías de Domingo Badía y Leblich dicen que era hijo de Pedro Badía y de Catalina Leblich.",
+   "dudas": [
+    "Se lee «Cablina»; por el contexto (madre de Alí Bey) es Catalina."
+   ],
+   "notas": [],
+   "otras": {},
+   "hijos": [
+    "ali-bey"
+   ],
+   "conyuges_ocultos": 0,
+   "hijos_ocultos": 0,
+   "padres_ocultos": 0
+  },
+  {
+   "id": "caterina-mestre",
+   "nombre": "Caterina Mestre",
+   "nacimiento": "",
+   "defuncion": "",
+   "lugar": "",
+   "oficio": "",
+   "padres": [],
+   "conyuges": [
+    "jordi-leblic"
+   ],
+   "generacion": 2,
+   "fuente": "anotación a mano en el árbol impreso, col. 2",
+   "dudoso": true,
+   "conexion_lucas": "por determinar",
+   "datos": "Escrito «Caterina Mestre». Las biografías de Alí Bey llaman a su madre «Catherine Leblich Mestres», lo que encaja con esta pareja.",
+   "dudas": [
+    "Mestre o Mestres."
+   ],
+   "notas": [],
+   "otras": {},
+   "hijos": [
+    "salvador-leblic-1730",
+    "francisco-leblic-1739",
+    "catalina-leblic-1742",
+    "nicolas-leblic"
+   ],
+   "conyuges_ocultos": 0,
+   "hijos_ocultos": 0,
+   "padres_ocultos": 0
+  },
+  {
+   "id": "ceferino-leblic-1873",
+   "nombre": "Ceferino Leblic",
+   "nacimiento": "1873",
+   "defuncion": "",
+   "lugar": "",
+   "oficio": "",
+   "padres": [
+    "antonio-leblic-1851",
+    "petronila-acevedo-1854"
+   ],
+   "conyuges": [],
+   "generacion": 7,
+   "fuente": "árbol impreso, col. 7",
+   "dudoso": false,
+   "conexion_lucas": "por determinar",
+   "datos": "Impreso «Ceferino (.1873 - ?) s/d».",
+   "dudas": [],
+   "notas": [],
+   "otras": {},
+   "hijos": [],
+   "conyuges_ocultos": 0,
+   "hijos_ocultos": 0,
+   "padres_ocultos": 0
+  },
+  {
+   "id": "clemente-de-lucas",
+   "nombre": "Clemente de Lucas",
+   "nacimiento": "",
+   "defuncion": "",
+   "lugar": "",
+   "oficio": "",
+   "padres": [],
+   "conyuges": [
+    "trinidad-leblic"
+   ],
+   "generacion": 6,
+   "fuente": "árbol impreso, col. 6",
+   "dudoso": false,
+   "conexion_lucas": "por determinar",
+   "datos": "Impreso «Clemente de Lucas», subrayado (consorte).",
+   "dudas": [],
+   "notas": [],
+   "otras": {},
+   "hijos": [],
+   "conyuges_ocultos": 0,
+   "hijos_ocultos": 0,
+   "padres_ocultos": 0
+  },
+  {
+   "id": "clemente-leblic-1889",
+   "nombre": "Clemente Leblic",
+   "nacimiento": "1889",
+   "defuncion": "",
+   "lugar": "",
+   "oficio": "",
+   "padres": [
+    "antonio-leblic-1851",
+    "petronila-acevedo-1854"
+   ],
+   "conyuges": [
+    "emilia-1889"
+   ],
+   "generacion": 7,
+   "fuente": "árbol impreso, col. 7; corrección a mano",
+   "dudoso": true,
+   "conexion_lucas": "por determinar",
+   "datos": "Impreso «Clemente (.1889 - ?) = Emilia».",
+   "dudas": [
+    "Sobre el último dígito del año hay un trazo a mano (¿7?): podría ser 1887."
+   ],
+   "notas": [],
+   "otras": {},
+   "hijos": [
+    "ventura-leblic-1920",
+    "clemente-leblic-1923"
+   ],
+   "conyuges_ocultos": 0,
+   "hijos_ocultos": 4,
+   "padres_ocultos": 0
+  },
+  {
+   "id": "clemente-leblic-1923",
+   "nombre": "Clemente Leblic",
+   "nacimiento": "1923",
+   "defuncion": "",
+   "lugar": "",
+   "oficio": "",
+   "padres": [
+    "clemente-leblic-1889",
+    "emilia-1889"
+   ],
+   "conyuges": [],
+   "generacion": 8,
+   "fuente": "árbol impreso, col. 8; año a mano",
+   "dudoso": true,
+   "conexion_lucas": "por determinar",
+   "datos": "Impreso «Clemente ( . ) = Julia». A mano: «1923-».",
+   "dudas": [
+    "El año de nacimiento está escrito a mano sobre el hueco: 1923 (lectura bastante clara)."
+   ],
+   "notas": [],
+   "otras": {},
+   "hijos": [],
+   "conyuges_ocultos": 1,
+   "hijos_ocultos": 5,
+   "padres_ocultos": 0
+  },
+  {
+   "id": "dolores-leblic-1909",
+   "nombre": "Dolores Leblic",
+   "nacimiento": "1909",
+   "defuncion": "1960",
+   "lugar": "",
+   "oficio": "",
+   "padres": [
+    "horacio-leblic-1875",
+    "amparo-fluiter-1880"
+   ],
+   "conyuges": [],
+   "generacion": 8,
+   "fuente": "árbol impreso, col. 8",
+   "dudoso": false,
+   "conexion_lucas": "por determinar",
+   "datos": "Impreso «Dolores (.1909 - 1960)».",
+   "dudas": [],
+   "notas": [],
+   "otras": {},
+   "hijos": [],
+   "conyuges_ocultos": 0,
+   "hijos_ocultos": 0,
+   "padres_ocultos": 0
+  },
+  {
+   "id": "dolores-leblic-rodriguez",
+   "nombre": "Dolores Leblic",
+   "nacimiento": "",
+   "defuncion": "",
+   "lugar": "",
+   "oficio": "",
+   "padres": [
+    "jose-leblic-1836",
+    "jeronima-rodriguez"
+   ],
+   "conyuges": [],
+   "generacion": 7,
+   "fuente": "árbol impreso, col. 7",
+   "dudoso": false,
+   "conexion_lucas": "por determinar",
+   "datos": "Impreso «Dolores ( . )».",
+   "dudas": [],
+   "notas": [],
+   "otras": {},
+   "hijos": [],
+   "conyuges_ocultos": 0,
+   "hijos_ocultos": 0,
+   "padres_ocultos": 0
+  },
+  {
+   "id": "elias-antonio-leblic-1761",
+   "nombre": "Elías Antonio Leblic",
+   "nacimiento": "1761",
+   "defuncion": "",
+   "lugar": "",
+   "oficio": "",
+   "padres": [
+    "francisco-leblic-1739",
+    "teresa-bernofa-1740"
+   ],
+   "conyuges": [],
+   "generacion": 4,
+   "fuente": "anotación a mano en el árbol impreso, col. 4",
+   "dudoso": true,
+   "conexion_lucas": "por determinar",
+   "datos": "Uno de cinco nombres escritos a mano en una llave a la que llega una flecha desde la rama de Francisco y Teresa; al lado, «S/desc.» (sin descendencia).",
+   "dudas": [
+    "Se atribuyen a Francisco y Teresa por la flecha; la flecha pasa junto a Alí Bey y se podría leer como suya, pero Alí Bey nació en 1767 y estos nacen desde 1761.",
+    "«S/desc.» está junto al grupo: no queda claro si vale para todos."
+   ],
+   "notas": [],
+   "otras": {},
+   "hijos": [],
+   "conyuges_ocultos": 0,
+   "hijos_ocultos": 0,
+   "padres_ocultos": 0
+  },
+  {
+   "id": "elisa-pineiro",
+   "nombre": "Elisa Piñeiro",
+   "nacimiento": "",
+   "defuncion": "",
+   "lugar": "",
+   "oficio": "",
+   "padres": [],
+   "conyuges": [
+    "felix-leblic-1849"
+   ],
+   "generacion": 6,
+   "fuente": "árbol impreso, col. 6",
+   "dudoso": false,
+   "conexion_lucas": "por determinar",
+   "datos": "Impreso «Elisa Piñeiro», subrayada (consorte).",
+   "dudas": [],
+   "notas": [],
+   "otras": {},
+   "hijos": [
+    "felix-leblic-pineiro",
+    "gerardo-leblic"
+   ],
+   "conyuges_ocultos": 0,
+   "hijos_ocultos": 0,
+   "padres_ocultos": 0
+  },
+  {
+   "id": "emilia-1889",
+   "nombre": "Emilia (¿Gómez Lanzas?)",
+   "nacimiento": "1889",
+   "defuncion": "",
+   "lugar": "",
+   "oficio": "",
+   "padres": [],
+   "conyuges": [
+    "clemente-leblic-1889"
+   ],
+   "generacion": 7,
+   "fuente": "árbol impreso, col. 7; apellidos a mano",
+   "dudoso": true,
+   "conexion_lucas": "por determinar",
+   "datos": "Impreso «Emilia (.1889 - ?)», subrayada (consorte). Al lado, a mano, algo como «Gómez Lanzas».",
+   "dudas": [
+    "Los apellidos a mano se leen mal: «Gómez Lanzas» es una lectura probable."
+   ],
+   "notas": [],
+   "otras": {},
+   "hijos": [
+    "ventura-leblic-1920",
+    "clemente-leblic-1923"
+   ],
+   "conyuges_ocultos": 0,
+   "hijos_ocultos": 4,
+   "padres_ocultos": 0
+  },
+  {
+   "id": "feliciano-leblic-bonamora",
+   "nombre": "Feliciano Leblic",
+   "nacimiento": "",
+   "defuncion": "",
+   "lugar": "",
+   "oficio": "",
+   "padres": [
+    "francisco-leblic-bonamora",
+    "bonamora"
+   ],
+   "conyuges": [],
+   "generacion": 7,
+   "fuente": "árbol impreso, col. 7",
+   "dudoso": false,
+   "conexion_lucas": "por determinar",
+   "datos": "Impreso «Feliciano ( . ) =», sin nombre de la mujer.",
+   "dudas": [],
+   "notas": [],
+   "otras": {},
+   "hijos": [],
+   "conyuges_ocultos": 0,
+   "hijos_ocultos": 0,
+   "padres_ocultos": 0
+  },
+  {
+   "id": "felix-leblic-1849",
+   "nombre": "Félix Leblic",
+   "nacimiento": "1849",
+   "defuncion": "",
+   "lugar": "",
+   "oficio": "",
+   "padres": [
+    "joaquin-leblic-1802",
+    "antonia-iglesias"
+   ],
+   "conyuges": [
+    "elisa-pineiro"
+   ],
+   "generacion": 6,
+   "fuente": "árbol impreso, col. 6",
+   "dudoso": false,
+   "conexion_lucas": "por determinar",
+   "datos": "Impreso «Felix (1849 - ?) = Elisa Piñeiro».",
+   "dudas": [],
+   "notas": [],
+   "otras": {},
+   "hijos": [
+    "felix-leblic-pineiro",
+    "gerardo-leblic"
+   ],
+   "conyuges_ocultos": 0,
+   "hijos_ocultos": 0,
+   "padres_ocultos": 0
+  },
+  {
+   "id": "felix-leblic-pineiro",
+   "nombre": "Félix Leblic",
+   "nacimiento": "",
+   "defuncion": "",
+   "lugar": "",
+   "oficio": "",
+   "padres": [
+    "felix-leblic-1849",
+    "elisa-pineiro"
+   ],
+   "conyuges": [
+    "isabel-bravo"
+   ],
+   "generacion": 7,
+   "fuente": "árbol impreso, col. 7",
+   "dudoso": false,
+   "conexion_lucas": "por determinar",
+   "datos": "Impreso «Felix ( . ) = Isabel Bravo».",
+   "dudas": [],
+   "notas": [],
+   "otras": {},
+   "hijos": [],
+   "conyuges_ocultos": 0,
+   "hijos_ocultos": 3,
+   "padres_ocultos": 0
+  },
+  {
+   "id": "francisca-rovira",
+   "nombre": "Francisca Rovira",
+   "nacimiento": "",
+   "defuncion": "",
+   "lugar": "",
+   "oficio": "",
+   "padres": [],
+   "conyuges": [
+    "juan-francisco-leblic"
+   ],
+   "generacion": 1,
+   "fuente": "anotación a mano en el árbol impreso, col. 1",
+   "dudoso": true,
+   "conexion_lucas": "por determinar",
+   "datos": "Escrito «Fca Rovira».",
+   "dudas": [
+    "«Fca» se lee como Francisca (abreviatura)."
+   ],
+   "notas": [],
+   "otras": {},
+   "hijos": [
+    "jordi-leblic"
+   ],
+   "conyuges_ocultos": 0,
+   "hijos_ocultos": 0,
+   "padres_ocultos": 0
+  },
+  {
+   "id": "francisco-leblic-1739",
+   "nombre": "Francisco Leblic",
+   "nacimiento": "1739",
+   "defuncion": "1799",
+   "lugar": "Barcelona",
+   "oficio": "militar, en Toledo desde 1753",
+   "padres": [
+    "jordi-leblic",
+    "caterina-mestre"
+   ],
+   "conyuges": [
+    "teresa-bernofa-1740"
+   ],
+   "generacion": 3,
+   "fuente": "árbol impreso, col. 3 (cabeza impresa del árbol); fechas y oficio a mano",
+   "dudoso": true,
+   "conexion_lucas": "por determinar",
+   "datos": "Impreso «Francisco LEBLIC (Barcelona)». A mano: «(1739-1799) → Militar en Toledo desde el 53».",
+   "dudas": [
+    "La fecha de defunción está escrita a mano encima del impreso: se lee 1799.",
+    "«Desde el 53» se entiende 1753."
+   ],
+   "notas": [],
+   "otras": {},
+   "hijos": [
+    "juan-leblic-1759",
+    "elias-antonio-leblic-1761",
+    "antonia-leblic-1763",
+    "manuel-leblic-1766",
+    "manuela-teresa-leblic-1772",
+    "manuela-leblic-1773"
+   ],
+   "conyuges_ocultos": 0,
+   "hijos_ocultos": 0,
+   "padres_ocultos": 0
+  },
+  {
+   "id": "francisco-leblic-1891",
+   "nombre": "Francisco Leblic",
+   "nacimiento": "1891",
+   "defuncion": "",
+   "lugar": "",
+   "oficio": "",
+   "padres": [
+    "francisco-leblic-bonamora",
+    "bonamora"
+   ],
+   "conyuges": [],
+   "generacion": 7,
+   "fuente": "árbol impreso, col. 7",
+   "dudoso": false,
+   "conexion_lucas": "por determinar",
+   "datos": "Impreso «Francisco (.1891 - ?)», casado dos veces («1º =» y «2º =»), sin los nombres de las mujeres. Del 1º sale Pilar; del 2º, Maximiliano, Feliciano, Juan y Obdulia.",
+   "dudas": [],
+   "notas": [],
+   "otras": {},
+   "hijos": [],
+   "conyuges_ocultos": 0,
+   "hijos_ocultos": 5,
+   "padres_ocultos": 0
+  },
+  {
+   "id": "francisco-leblic-bonamora",
+   "nombre": "Francisco Leblic",
+   "nacimiento": "",
+   "defuncion": "",
+   "lugar": "",
+   "oficio": "",
+   "padres": [
+    "joaquin-leblic-1802",
+    "antonia-iglesias"
+   ],
+   "conyuges": [
+    "bonamora"
+   ],
+   "generacion": 6,
+   "fuente": "árbol impreso, col. 6",
+   "dudoso": false,
+   "conexion_lucas": "por determinar",
+   "datos": "Impreso «Francisco ( . ) = BonaMora».",
+   "dudas": [],
+   "notas": [],
+   "otras": {},
+   "hijos": [
+    "francisco-leblic-1891",
+    "feliciano-leblic-bonamora"
+   ],
+   "conyuges_ocultos": 0,
+   "hijos_ocultos": 0,
+   "padres_ocultos": 0
+  },
+  {
+   "id": "george-leblic",
+   "nombre": "George L. (¿Leblic?)",
+   "nacimiento": "",
+   "defuncion": "",
+   "lugar": "",
+   "oficio": "",
+   "padres": [],
+   "conyuges": [
+    "gilson"
+   ],
+   "generacion": 0,
+   "fuente": "anotación a mano en el árbol impreso, a la izquierda de la col. 1",
+   "dudoso": true,
+   "conexion_lucas": "por determinar",
+   "datos": "Escrito «George L.». Una flecha baja hasta él desde «Bruxelas - España 1662» (arriba a la izquierda): sería quien vino de Bruselas a España en 1662.",
+   "dudas": [
+    "La «L.» se interpreta como Leblic; no está escrito entero.",
+    "Que llegara en 1662 se deduce de la flecha, no está dicho."
+   ],
+   "notas": [],
+   "otras": {},
+   "hijos": [
+    "jorge-leblic",
+    "juan-francisco-leblic"
+   ],
+   "conyuges_ocultos": 0,
+   "hijos_ocultos": 0,
+   "padres_ocultos": 0
+  },
+  {
+   "id": "gerardo-leblic",
+   "nombre": "Gerardo Leblic",
+   "nacimiento": "",
+   "defuncion": "",
+   "lugar": "",
+   "oficio": "",
+   "padres": [
+    "felix-leblic-1849",
+    "elisa-pineiro"
+   ],
+   "conyuges": [],
+   "generacion": 7,
+   "fuente": "árbol impreso, col. 7",
+   "dudoso": false,
+   "conexion_lucas": "por determinar",
+   "datos": "Impreso «Gerardo».",
+   "dudas": [],
+   "notas": [],
+   "otras": {},
+   "hijos": [],
+   "conyuges_ocultos": 0,
+   "hijos_ocultos": 0,
+   "padres_ocultos": 0
+  },
+  {
+   "id": "gilson",
+   "nombre": "Mª Gilson",
+   "nacimiento": "",
+   "defuncion": "",
+   "lugar": "",
+   "oficio": "",
+   "padres": [],
+   "conyuges": [
+    "george-leblic"
+   ],
+   "generacion": 0,
+   "fuente": "anotación a mano en el árbol impreso, a la izquierda de la col. 1",
+   "dudoso": true,
+   "conexion_lucas": "por determinar",
+   "datos": "Escrito «Mª Gilson» bajo «George L.».",
+   "dudas": [
+    "Apellido de lectura dudosa (Gilson / Gilsen)."
+   ],
+   "notas": [],
+   "otras": {},
+   "hijos": [
+    "jorge-leblic",
+    "juan-francisco-leblic"
+   ],
+   "conyuges_ocultos": 0,
+   "hijos_ocultos": 0,
+   "padres_ocultos": 0
+  },
+  {
+   "id": "horacio-leblic-1875",
+   "nombre": "Horacio Leblic",
+   "nacimiento": "1875",
+   "defuncion": "",
+   "lugar": "",
+   "oficio": "",
+   "padres": [
+    "jose-leblic-1836",
+    "jeronima-rodriguez"
+   ],
+   "conyuges": [
+    "amparo-fluiter-1880"
+   ],
+   "generacion": 7,
+   "fuente": "árbol impreso, col. 7",
+   "dudoso": false,
+   "conexion_lucas": "por determinar",
+   "datos": "Impreso «Horacio (. 1875) = Amparo Fluiter».",
+   "dudas": [],
+   "notas": [],
+   "otras": {},
+   "hijos": [
+    "soledad-leblic-1901",
+    "dolores-leblic-1909",
+    "antonio-leblic-1914",
+    "horacio-leblic-1916",
+    "rafael-leblic-1921",
+    "josefa-leblic-1924"
+   ],
+   "conyuges_ocultos": 0,
+   "hijos_ocultos": 1,
+   "padres_ocultos": 0
+  },
+  {
+   "id": "horacio-leblic-1916",
+   "nombre": "Horacio Leblic",
+   "nacimiento": "1916",
+   "defuncion": "",
+   "lugar": "",
+   "oficio": "",
+   "padres": [
+    "horacio-leblic-1875",
+    "amparo-fluiter-1880"
+   ],
+   "conyuges": [],
+   "generacion": 8,
+   "fuente": "árbol impreso, col. 8",
+   "dudoso": false,
+   "conexion_lucas": "por determinar",
+   "datos": "Impreso «Horacio (.1916) = Elisa».",
+   "dudas": [],
+   "notas": [],
+   "otras": {},
+   "hijos": [],
+   "conyuges_ocultos": 1,
+   "hijos_ocultos": 4,
+   "padres_ocultos": 0
+  },
+  {
+   "id": "irene-sanchez",
+   "nombre": "Irene Sánchez",
+   "nacimiento": "",
+   "defuncion": "",
+   "lugar": "",
+   "oficio": "",
+   "padres": [],
+   "conyuges": [
+    "ismael-leblic-1872"
+   ],
+   "generacion": 7,
+   "fuente": "árbol impreso, col. 7; apellido a mano",
+   "dudoso": false,
+   "conexion_lucas": "por determinar",
+   "datos": "Impreso «Irene», subrayada (consorte); «Sánchez» a mano.",
+   "dudas": [],
+   "notas": [],
+   "otras": {},
+   "hijos": [
+    "jose-leblic-1907"
+   ],
+   "conyuges_ocultos": 0,
+   "hijos_ocultos": 0,
+   "padres_ocultos": 0
+  },
+  {
+   "id": "isabel-bravo",
+   "nombre": "Isabel Bravo",
+   "nacimiento": "",
+   "defuncion": "",
+   "lugar": "",
+   "oficio": "",
+   "padres": [],
+   "conyuges": [
+    "felix-leblic-pineiro"
+   ],
+   "generacion": 7,
+   "fuente": "árbol impreso, col. 7",
+   "dudoso": false,
+   "conexion_lucas": "por determinar",
+   "datos": "Impreso «Isabel Bravo», subrayada (consorte).",
+   "dudas": [],
+   "notas": [],
+   "otras": {},
+   "hijos": [],
+   "conyuges_ocultos": 0,
+   "hijos_ocultos": 3,
+   "padres_ocultos": 0
+  },
+  {
+   "id": "ismael-leblic-1872",
+   "nombre": "Ismael Leblic",
+   "nacimiento": "1872",
+   "defuncion": "1908",
+   "lugar": "",
+   "oficio": "",
+   "padres": [
+    "jose-leblic-1836",
+    "jeronima-rodriguez"
+   ],
+   "conyuges": [
+    "irene-sanchez"
+   ],
+   "generacion": 7,
+   "fuente": "árbol impreso, col. 7; defunción y apellido de Irene a mano",
+   "dudoso": false,
+   "conexion_lucas": "por determinar",
+   "datos": "Impreso «Ismael (. 1872 - ) = Irene». A mano: «1908» (defunción) y «Sánchez».",
+   "dudas": [],
+   "notas": [],
+   "otras": {},
+   "hijos": [
+    "jose-leblic-1907"
+   ],
+   "conyuges_ocultos": 0,
+   "hijos_ocultos": 0,
+   "padres_ocultos": 0
+  },
+  {
+   "id": "jeronima-rodriguez",
+   "nombre": "Jerónima Rodríguez",
+   "nacimiento": "",
+   "defuncion": "",
+   "lugar": "",
+   "oficio": "",
+   "padres": [],
+   "conyuges": [
+    "jose-leblic-1836"
+   ],
+   "generacion": 6,
+   "fuente": "árbol impreso, col. 6",
+   "dudoso": false,
+   "conexion_lucas": "por determinar",
+   "datos": "Impreso «Jerónima Rodriguez».",
+   "dudas": [],
+   "notas": [],
+   "otras": {},
+   "hijos": [
+    "ismael-leblic-1872",
+    "horacio-leblic-1875",
+    "aurora-leblic",
+    "dolores-leblic-rodriguez"
+   ],
+   "conyuges_ocultos": 0,
+   "hijos_ocultos": 0,
+   "padres_ocultos": 0
+  },
+  {
+   "id": "joaquin-leblic-1802",
+   "nombre": "Joaquín Leblic",
+   "nacimiento": "1802",
+   "defuncion": "",
+   "lugar": "Talavera",
+   "oficio": "",
+   "padres": [
+    "juan-leblic-1759",
+    "angela-de-sosa-1766"
+   ],
+   "conyuges": [
+    "maria-dolores-gonzalez",
+    "antonia-iglesias"
+   ],
+   "generacion": 5,
+   "fuente": "árbol impreso, col. 5",
+   "dudoso": false,
+   "conexion_lucas": "por determinar",
+   "datos": "Impreso «Joaquin LEBLIC (.1802 - ?) (Talavera)». Casado en 1ªs nupcias con Mª Dolores González y en 2ªs con Antonia Iglesias.",
+   "dudas": [],
+   "notas": [],
+   "otras": {},
+   "hijos": [
+    "jose-leblic-1836",
+    "vicente-leblic-1846",
+    "felix-leblic-1849",
+    "antonio-leblic-1851",
+    "francisco-leblic-bonamora",
+    "trinidad-leblic"
+   ],
+   "conyuges_ocultos": 0,
+   "hijos_ocultos": 0,
+   "padres_ocultos": 0
+  },
+  {
+   "id": "joaquin-leblic-1880",
+   "nombre": "Joaquín Leblic",
+   "nacimiento": "1880",
+   "defuncion": "",
+   "lugar": "",
+   "oficio": "",
+   "padres": [
+    "antonio-leblic-1851",
+    "petronila-acevedo-1854"
+   ],
+   "conyuges": [
+    "severiana"
+   ],
+   "generacion": 7,
+   "fuente": "árbol impreso, col. 7",
+   "dudoso": true,
+   "conexion_lucas": "por determinar",
+   "datos": "Impreso «Joaquín (.1880 - ?) s/d = Severiana»; de la pareja sale la línea a Jesús, María, Ángel y Carmen.",
+   "dudas": [
+    "Lleva «s/d» (sin descendencia) y a la vez una línea hacia hijos: o el s/d es un error o la línea es de otro."
+   ],
+   "notas": [],
+   "otras": {},
+   "hijos": [],
+   "conyuges_ocultos": 0,
+   "hijos_ocultos": 3,
+   "padres_ocultos": 0
+  },
+  {
+   "id": "jordi-leblic",
+   "nombre": "Jordi Leblic",
+   "nacimiento": "",
+   "defuncion": "",
+   "lugar": "",
+   "oficio": "",
+   "padres": [
+    "juan-francisco-leblic",
+    "francisca-rovira"
+   ],
+   "conyuges": [
+    "caterina-mestre"
+   ],
+   "generacion": 2,
+   "fuente": "anotación a mano en el árbol impreso, col. 2",
+   "dudoso": false,
+   "conexion_lucas": "por determinar",
+   "datos": "Escrito «Jordi Leblic = Caterina Mestre».",
+   "dudas": [],
+   "notas": [],
+   "otras": {},
+   "hijos": [
+    "salvador-leblic-1730",
+    "francisco-leblic-1739",
+    "catalina-leblic-1742",
+    "nicolas-leblic"
+   ],
+   "conyuges_ocultos": 0,
+   "hijos_ocultos": 0,
+   "padres_ocultos": 0
+  },
+  {
+   "id": "jorge-leblic",
+   "nombre": "Jorge (¿Leblic?)",
+   "nacimiento": "",
+   "defuncion": "",
+   "lugar": "",
+   "oficio": "",
+   "padres": [
+    "george-leblic",
+    "gilson"
+   ],
+   "conyuges": [],
+   "generacion": 1,
+   "fuente": "anotación a mano en el árbol impreso, col. 1",
+   "dudoso": true,
+   "conexion_lucas": "por determinar",
+   "datos": "Escrito «Jorge ?», con interrogación en el original, dentro de la llave que sale de George L.",
+   "dudas": [
+    "La propia anotación lleva interrogación: no es seguro que exista o que sea hijo de George."
+   ],
+   "notas": [],
+   "otras": {},
+   "hijos": [],
+   "conyuges_ocultos": 0,
+   "hijos_ocultos": 0,
+   "padres_ocultos": 0
+  },
+  {
+   "id": "jose-antonio-leblic-1800",
+   "nombre": "José Antonio Leblic",
+   "nacimiento": "1800",
+   "defuncion": "",
+   "lugar": "Toledo (?)",
+   "oficio": "sacerdote",
+   "padres": [
+    "juan-leblic-1759",
+    "angela-de-sosa-1766"
+   ],
+   "conyuges": [],
+   "generacion": 5,
+   "fuente": "árbol impreso, col. 5; «Sacerdote» a mano",
+   "dudoso": false,
+   "conexion_lucas": "por determinar",
+   "datos": "Impreso «Jose Antonio LEBLIC (. 1800 - ?) s/d. (Toledo-?)». A mano: «Sacerdote». s/d = sin descendencia.",
+   "dudas": [],
+   "notas": [],
+   "otras": {},
+   "hijos": [],
+   "conyuges_ocultos": 0,
+   "hijos_ocultos": 0,
+   "padres_ocultos": 0
+  },
+  {
+   "id": "jose-leblic-1836",
+   "nombre": "José Leblic",
+   "nacimiento": "1836",
+   "defuncion": "",
+   "lugar": "",
+   "oficio": "veterinario",
+   "padres": [
+    "joaquin-leblic-1802",
+    "maria-dolores-gonzalez"
+   ],
+   "conyuges": [
+    "jeronima-rodriguez"
+   ],
+   "generacion": 6,
+   "fuente": "árbol impreso, col. 6; «Veterinario» a mano",
+   "dudoso": false,
+   "conexion_lucas": "por determinar",
+   "datos": "Impreso «José (.1836 - ?) = Jerónima Rodríguez». A mano: «Veterinario».",
+   "dudas": [],
+   "notas": [],
+   "otras": {},
+   "hijos": [
+    "ismael-leblic-1872",
+    "horacio-leblic-1875",
+    "aurora-leblic",
+    "dolores-leblic-rodriguez"
+   ],
+   "conyuges_ocultos": 0,
+   "hijos_ocultos": 0,
+   "padres_ocultos": 0
+  },
+  {
+   "id": "jose-leblic-1907",
+   "nombre": "José Leblic",
+   "nacimiento": "1907",
+   "defuncion": "1982",
+   "lugar": "",
+   "oficio": "",
+   "padres": [
+    "ismael-leblic-1872",
+    "irene-sanchez"
+   ],
+   "conyuges": [
+    "julia-anton-1913"
+   ],
+   "generacion": 8,
+   "fuente": "árbol impreso, col. 8; fechas retocadas a mano",
+   "dudoso": true,
+   "conexion_lucas": "por determinar",
+   "datos": "Impreso «José (190_ - ) = Julia Antón». A mano: el último dígito del nacimiento y «1982».",
+   "dudas": [
+    "Nacimiento: el último dígito está repasado a mano con un 9 encima del impreso; se lee 1907 o 1909.",
+    "Si nació en 1909, sería póstumo (su padre Ismael murió en 1908)."
+   ],
+   "notas": [],
+   "otras": {},
+   "hijos": [
+    "julio-leblic-1936"
+   ],
+   "conyuges_ocultos": 0,
+   "hijos_ocultos": 3,
+   "padres_ocultos": 0
+  },
+  {
+   "id": "josefa-leblic-1924",
+   "nombre": "Josefa Leblic",
+   "nacimiento": "1924",
+   "defuncion": "",
+   "lugar": "",
+   "oficio": "",
+   "padres": [
+    "horacio-leblic-1875",
+    "amparo-fluiter-1880"
+   ],
+   "conyuges": [],
+   "generacion": 8,
+   "fuente": "árbol impreso, col. 8",
+   "dudoso": false,
+   "conexion_lucas": "por determinar",
+   "datos": "Impreso «Josefa (.1924)».",
+   "dudas": [],
+   "notas": [],
+   "otras": {},
+   "hijos": [],
+   "conyuges_ocultos": 0,
+   "hijos_ocultos": 0,
+   "padres_ocultos": 0
+  },
+  {
+   "id": "juan-francisco-leblic",
+   "nombre": "Juan Francisco Leblic",
+   "nacimiento": "",
+   "defuncion": "",
+   "lugar": "",
+   "oficio": "",
+   "padres": [
+    "george-leblic",
+    "gilson"
+   ],
+   "conyuges": [
+    "francisca-rovira"
+   ],
+   "generacion": 1,
+   "fuente": "anotación a mano en el árbol impreso, col. 1",
+   "dudoso": true,
+   "conexion_lucas": "por determinar",
+   "datos": "Escrito «Juan Fco Leblic = Fca Rovira».",
+   "dudas": [
+    "«Fco» se lee como Francisco (abreviatura)."
+   ],
+   "notas": [],
+   "otras": {},
+   "hijos": [
+    "jordi-leblic"
+   ],
+   "conyuges_ocultos": 0,
+   "hijos_ocultos": 0,
+   "padres_ocultos": 0
+  },
+  {
+   "id": "juan-leblic-1759",
+   "nombre": "Juan Leblic",
+   "nacimiento": "1759",
+   "defuncion": "",
+   "lugar": "Toledo",
+   "oficio": "",
+   "padres": [
+    "francisco-leblic-1739",
+    "teresa-bernofa-1740"
+   ],
+   "conyuges": [
+    "angela-de-sosa-1766"
+   ],
+   "generacion": 4,
+   "fuente": "árbol impreso, col. 4",
+   "dudoso": false,
+   "conexion_lucas": "por determinar",
+   "datos": "Impreso «Juan LEBLIC (.1759 - ?) (Toledo)».",
+   "dudas": [],
+   "notas": [],
+   "otras": {},
+   "hijos": [
+    "jose-antonio-leblic-1800",
+    "joaquin-leblic-1802",
+    "mariano-leblic"
+   ],
+   "conyuges_ocultos": 0,
+   "hijos_ocultos": 0,
+   "padres_ocultos": 0
+  },
+  {
+   "id": "julia-anton-1913",
+   "nombre": "Julia Antón",
+   "nacimiento": "1913",
+   "defuncion": "200?",
+   "lugar": "",
+   "oficio": "",
+   "padres": [],
+   "conyuges": [
+    "jose-leblic-1907"
+   ],
+   "generacion": 8,
+   "fuente": "árbol impreso, col. 8; fechas a mano",
+   "dudoso": true,
+   "conexion_lucas": "por determinar",
+   "datos": "Impreso «Julia Antón», subrayada (consorte). A mano: «(1913-200_)».",
+   "dudas": [
+    "El último dígito de la defunción queda tapado por la línea del árbol (200?)."
+   ],
+   "notas": [],
+   "otras": {},
+   "hijos": [
+    "julio-leblic-1936"
+   ],
+   "conyuges_ocultos": 0,
+   "hijos_ocultos": 3,
+   "padres_ocultos": 0
+  },
+  {
+   "id": "julian-leblic-1880",
+   "nombre": "Julián Leblic",
+   "nacimiento": "1880",
+   "defuncion": "",
+   "lugar": "",
+   "oficio": "",
+   "padres": [
+    "antonio-leblic-1851",
+    "petronila-acevedo-1854"
+   ],
+   "conyuges": [],
+   "generacion": 7,
+   "fuente": "árbol impreso, col. 7",
+   "dudoso": false,
+   "conexion_lucas": "por determinar",
+   "datos": "Impreso «Julian (.1880 - ?) s/d».",
+   "dudas": [],
+   "notas": [],
+   "otras": {},
+   "hijos": [],
+   "conyuges_ocultos": 0,
+   "hijos_ocultos": 0,
+   "padres_ocultos": 0
+  },
+  {
+   "id": "julio-leblic-1936",
+   "nombre": "Julio Leblic",
+   "nacimiento": "1936",
+   "defuncion": "1938",
+   "lugar": "",
+   "oficio": "",
+   "padres": [
+    "jose-leblic-1907",
+    "julia-anton-1913"
+   ],
+   "conyuges": [],
+   "generacion": 9,
+   "fuente": "árbol impreso, col. 9",
+   "dudoso": false,
+   "conexion_lucas": "por determinar",
+   "datos": "Impreso «Julio (.1936 - 38)».",
+   "dudas": [],
+   "notas": [],
+   "otras": {},
+   "hijos": [],
+   "conyuges_ocultos": 0,
+   "hijos_ocultos": 0,
+   "padres_ocultos": 0
+  },
+  {
+   "id": "manuel-leblic-1766",
+   "nombre": "Manuel Leblic",
+   "nacimiento": "1766",
+   "defuncion": "",
+   "lugar": "",
+   "oficio": "",
+   "padres": [
+    "francisco-leblic-1739",
+    "teresa-bernofa-1740"
+   ],
+   "conyuges": [],
+   "generacion": 4,
+   "fuente": "anotación a mano en el árbol impreso, col. 4",
+   "dudoso": true,
+   "conexion_lucas": "por determinar",
+   "datos": "Uno de cinco nombres escritos a mano en una llave a la que llega una flecha desde la rama de Francisco y Teresa; al lado, «S/desc.» (sin descendencia).",
+   "dudas": [
+    "Se atribuyen a Francisco y Teresa por la flecha; la flecha pasa junto a Alí Bey y se podría leer como suya, pero Alí Bey nació en 1767 y estos nacen desde 1761.",
+    "«S/desc.» está junto al grupo: no queda claro si vale para todos."
+   ],
+   "notas": [],
+   "otras": {},
+   "hijos": [],
+   "conyuges_ocultos": 0,
+   "hijos_ocultos": 0,
+   "padres_ocultos": 0
+  },
+  {
+   "id": "manuela-leblic-1773",
+   "nombre": "Manuela Leblic",
+   "nacimiento": "1773",
+   "defuncion": "",
+   "lugar": "",
+   "oficio": "",
+   "padres": [
+    "francisco-leblic-1739",
+    "teresa-bernofa-1740"
+   ],
+   "conyuges": [],
+   "generacion": 4,
+   "fuente": "anotación a mano en el árbol impreso, col. 4",
+   "dudoso": true,
+   "conexion_lucas": "por determinar",
+   "datos": "Uno de cinco nombres escritos a mano en una llave a la que llega una flecha desde la rama de Francisco y Teresa; al lado, «S/desc.» (sin descendencia).",
+   "dudas": [
+    "Se atribuyen a Francisco y Teresa por la flecha; la flecha pasa junto a Alí Bey y se podría leer como suya, pero Alí Bey nació en 1767 y estos nacen desde 1761.",
+    "«S/desc.» está junto al grupo: no queda claro si vale para todos."
+   ],
+   "notas": [],
+   "otras": {},
+   "hijos": [],
+   "conyuges_ocultos": 0,
+   "hijos_ocultos": 0,
+   "padres_ocultos": 0
+  },
+  {
+   "id": "manuela-teresa-leblic-1772",
+   "nombre": "Manuela Teresa Leblic",
+   "nacimiento": "1772",
+   "defuncion": "",
+   "lugar": "",
+   "oficio": "",
+   "padres": [
+    "francisco-leblic-1739",
+    "teresa-bernofa-1740"
+   ],
+   "conyuges": [],
+   "generacion": 4,
+   "fuente": "anotación a mano en el árbol impreso, col. 4",
+   "dudoso": true,
+   "conexion_lucas": "por determinar",
+   "datos": "Uno de cinco nombres escritos a mano en una llave a la que llega una flecha desde la rama de Francisco y Teresa; al lado, «S/desc.» (sin descendencia).",
+   "dudas": [
+    "Se atribuyen a Francisco y Teresa por la flecha; la flecha pasa junto a Alí Bey y se podría leer como suya, pero Alí Bey nació en 1767 y estos nacen desde 1761.",
+    "«S/desc.» está junto al grupo: no queda claro si vale para todos."
+   ],
+   "notas": [],
+   "otras": {},
+   "hijos": [],
+   "conyuges_ocultos": 0,
+   "hijos_ocultos": 0,
+   "padres_ocultos": 0
+  },
+  {
+   "id": "maria-dolores-gonzalez",
+   "nombre": "Mª Dolores González",
+   "nacimiento": "",
+   "defuncion": "",
+   "lugar": "",
+   "oficio": "",
+   "padres": [],
+   "conyuges": [
+    "joaquin-leblic-1802"
+   ],
+   "generacion": 5,
+   "fuente": "árbol impreso, col. 5",
+   "dudoso": false,
+   "conexion_lucas": "por determinar",
+   "datos": "Impreso «1º = Mª Dolores Gonzalez», subrayada (consorte). Primera mujer de Joaquín.",
+   "dudas": [],
+   "notas": [],
+   "otras": {},
+   "hijos": [
+    "jose-leblic-1836"
+   ],
+   "conyuges_ocultos": 0,
+   "hijos_ocultos": 0,
+   "padres_ocultos": 0
+  },
+  {
+   "id": "maria-francisca",
+   "nombre": "Mª Francisca",
+   "nacimiento": "",
+   "defuncion": "",
+   "lugar": "",
+   "oficio": "",
+   "padres": [],
+   "conyuges": [
+    "vicente-leblic-1846"
+   ],
+   "generacion": 6,
+   "fuente": "árbol impreso, col. 6",
+   "dudoso": false,
+   "conexion_lucas": "por determinar",
+   "datos": "Impreso «Mª Francisca», subrayada (consorte). Sin apellido.",
+   "dudas": [],
+   "notas": [],
+   "otras": {},
+   "hijos": [],
+   "conyuges_ocultos": 0,
+   "hijos_ocultos": 0,
+   "padres_ocultos": 0
+  },
+  {
+   "id": "maria-luisa-berruezo",
+   "nombre": "María Luisa Berruezo",
+   "nacimiento": "",
+   "defuncion": "",
+   "lugar": "Vera (Almería)",
+   "oficio": "",
+   "padres": [],
+   "conyuges": [
+    "ali-bey"
+   ],
+   "generacion": 4,
+   "fuente": "anotación a mano en el árbol impreso, col. 4",
+   "dudoso": true,
+   "conexion_lucas": "por determinar",
+   "datos": "Escrito «Mª Luisa Berrueco» (o Bernueco). Las biografías la llaman María Luisa (o María Lucía) Berruezo Campoy; se casaron en Vera en 1791.",
+   "dudas": [
+    "Apellido escrito Berrueco/Bernueco en el árbol; en las fuentes, Berruezo."
+   ],
+   "notas": [],
+   "otras": {},
+   "hijos": [],
+   "conyuges_ocultos": 0,
+   "hijos_ocultos": 0,
+   "padres_ocultos": 0
+  },
+  {
+   "id": "mariano-leblic",
+   "nombre": "Mariano Leblic",
+   "nacimiento": "",
+   "defuncion": "",
+   "lugar": "",
+   "oficio": "",
+   "padres": [
+    "juan-leblic-1759",
+    "angela-de-sosa-1766"
+   ],
+   "conyuges": [],
+   "generacion": 5,
+   "fuente": "anotación a mano en el árbol impreso, col. 5",
+   "dudoso": false,
+   "conexion_lucas": "por determinar",
+   "datos": "Escrito «Mariano (S/desc.)», con una línea que sale de la llave de los hijos de Juan y Ángela.",
+   "dudas": [],
+   "notas": [],
+   "otras": {},
+   "hijos": [],
+   "conyuges_ocultos": 0,
+   "hijos_ocultos": 0,
+   "padres_ocultos": 0
+  },
+  {
+   "id": "nicolas-leblic",
+   "nombre": "Nicolás Leblic",
+   "nacimiento": "",
+   "defuncion": "",
+   "lugar": "",
+   "oficio": "",
+   "padres": [
+    "jordi-leblic",
+    "caterina-mestre"
+   ],
+   "conyuges": [],
+   "generacion": 3,
+   "fuente": "anotación a mano en el árbol impreso, col. 3",
+   "dudoso": true,
+   "conexion_lucas": "por determinar",
+   "datos": "Escrito «Nicolás», último de la llave de los hijos de Jordi.",
+   "dudas": [
+    "Lectura «Nicolás» probable, no segura."
+   ],
+   "notas": [],
+   "otras": {},
+   "hijos": [],
+   "conyuges_ocultos": 0,
+   "hijos_ocultos": 0,
+   "padres_ocultos": 0
+  },
+  {
+   "id": "pedro-badia",
+   "nombre": "Pedro Badía",
+   "nacimiento": "",
+   "defuncion": "",
+   "lugar": "",
+   "oficio": "",
+   "padres": [],
+   "conyuges": [
+    "catalina-leblic-1742"
+   ],
+   "generacion": 3,
+   "fuente": "anotación a mano en el árbol impreso, col. 3",
+   "dudoso": true,
+   "conexion_lucas": "por determinar",
+   "datos": "Escrito «Domingo Pedro Badía». Las biografías de Alí Bey llaman a su padre Pedro Badía (Castillo), secretario del gobernador de Barcelona; Domingo es el nombre del hijo.",
+   "dudas": [
+    "La anotación dice «Domingo Pedro Badía»; ¿el padre se llamaba también Domingo o se mezcló con el hijo?"
+   ],
+   "notas": [],
+   "otras": {},
+   "hijos": [
+    "ali-bey"
+   ],
+   "conyuges_ocultos": 0,
+   "hijos_ocultos": 0,
+   "padres_ocultos": 0
+  },
+  {
+   "id": "petronila-acevedo-1854",
+   "nombre": "Petronila Acevedo",
+   "nacimiento": "1854",
+   "defuncion": "1915",
+   "lugar": "",
+   "oficio": "",
+   "padres": [],
+   "conyuges": [
+    "antonio-leblic-1851"
+   ],
+   "generacion": 6,
+   "fuente": "árbol impreso, col. 6",
+   "dudoso": false,
+   "conexion_lucas": "por determinar",
+   "datos": "Impreso «Petronila Acevedo (. 1854 - 1915», subrayado el apellido (consorte).",
+   "dudas": [],
+   "notas": [],
+   "otras": {},
+   "hijos": [
+    "ceferino-leblic-1873",
+    "angel-leblic-1874",
+    "prudencio-leblic-1876",
+    "aniceto-leblic-1880",
+    "joaquin-leblic-1880",
+    "julian-leblic-1880",
+    "vicente-leblic-1882",
+    "clemente-leblic-1889",
+    "antonia-leblic-acevedo",
+    "vicenta-leblic"
+   ],
+   "conyuges_ocultos": 0,
+   "hijos_ocultos": 0,
+   "padres_ocultos": 0
+  },
+  {
+   "id": "prudencio-leblic-1876",
+   "nombre": "Prudencio Leblic",
+   "nacimiento": "1876",
+   "defuncion": "1936",
+   "lugar": "",
+   "oficio": "",
+   "padres": [
+    "antonio-leblic-1851",
+    "petronila-acevedo-1854"
+   ],
+   "conyuges": [],
+   "generacion": 7,
+   "fuente": "árbol impreso, col. 7",
+   "dudoso": false,
+   "conexion_lucas": "por determinar",
+   "datos": "Impreso «Prudencio (.1876 - 1936) s/d».",
+   "dudas": [],
+   "notas": [],
+   "otras": {},
+   "hijos": [],
+   "conyuges_ocultos": 0,
+   "hijos_ocultos": 0,
+   "padres_ocultos": 0
+  },
+  {
+   "id": "rafael-leblic-1921",
+   "nombre": "Rafael Leblic",
+   "nacimiento": "1921",
+   "defuncion": "",
+   "lugar": "",
+   "oficio": "",
+   "padres": [
+    "horacio-leblic-1875",
+    "amparo-fluiter-1880"
+   ],
+   "conyuges": [],
+   "generacion": 8,
+   "fuente": "árbol impreso, col. 8",
+   "dudoso": false,
+   "conexion_lucas": "por determinar",
+   "datos": "Impreso «Rafael (. 1921) = Emilia».",
+   "dudas": [],
+   "notas": [],
+   "otras": {},
+   "hijos": [],
+   "conyuges_ocultos": 1,
+   "hijos_ocultos": 4,
+   "padres_ocultos": 0
+  },
+  {
+   "id": "salvador-leblic-1730",
+   "nombre": "Salvador Leblic",
+   "nacimiento": "1730",
+   "defuncion": "",
+   "lugar": "",
+   "oficio": "",
+   "padres": [
+    "jordi-leblic",
+    "caterina-mestre"
+   ],
+   "conyuges": [],
+   "generacion": 3,
+   "fuente": "anotación a mano en el árbol impreso, col. 3 (arriba)",
+   "dudoso": false,
+   "conexion_lucas": "por determinar",
+   "datos": "Escrito «SALVADOR (1730)», encima de Francisco, dentro de la llave de los hijos de Jordi.",
+   "dudas": [],
+   "notas": [],
+   "otras": {},
+   "hijos": [],
+   "conyuges_ocultos": 0,
+   "hijos_ocultos": 0,
+   "padres_ocultos": 0
+  },
+  {
+   "id": "severiana",
+   "nombre": "Severiana",
+   "nacimiento": "",
+   "defuncion": "",
+   "lugar": "",
+   "oficio": "",
+   "padres": [],
+   "conyuges": [
+    "joaquin-leblic-1880"
+   ],
+   "generacion": 7,
+   "fuente": "árbol impreso, col. 7",
+   "dudoso": false,
+   "conexion_lucas": "por determinar",
+   "datos": "Impreso «Severiana», subrayada (consorte). Sin apellido.",
+   "dudas": [],
+   "notas": [],
+   "otras": {},
+   "hijos": [],
+   "conyuges_ocultos": 0,
+   "hijos_ocultos": 3,
+   "padres_ocultos": 0
+  },
+  {
+   "id": "soledad-leblic-1901",
+   "nombre": "Soledad Leblic",
+   "nacimiento": "1901",
+   "defuncion": "",
+   "lugar": "",
+   "oficio": "",
+   "padres": [
+    "horacio-leblic-1875",
+    "amparo-fluiter-1880"
+   ],
+   "conyuges": [],
+   "generacion": 8,
+   "fuente": "árbol impreso, col. 8",
+   "dudoso": false,
+   "conexion_lucas": "por determinar",
+   "datos": "Impreso «Soledad (.1901 -)».",
+   "dudas": [],
+   "notas": [],
+   "otras": {},
+   "hijos": [],
+   "conyuges_ocultos": 0,
+   "hijos_ocultos": 0,
+   "padres_ocultos": 0
+  },
+  {
+   "id": "teresa-bernofa-1740",
+   "nombre": "Teresa Bernofa",
+   "nacimiento": "1740",
+   "defuncion": "",
+   "lugar": "Ciudad Rodrigo",
+   "oficio": "",
+   "padres": [],
+   "conyuges": [
+    "francisco-leblic-1739"
+   ],
+   "generacion": 3,
+   "fuente": "árbol impreso, col. 3",
+   "dudoso": false,
+   "conexion_lucas": "por determinar",
+   "datos": "Impreso «Teresa Bernofa (. 1740 - ?) (Ciudad Rodrigo)», subrayada (consorte de un Leblic).",
+   "dudas": [],
+   "notas": [],
+   "otras": {},
+   "hijos": [
+    "juan-leblic-1759",
+    "elias-antonio-leblic-1761",
+    "antonia-leblic-1763",
+    "manuel-leblic-1766",
+    "manuela-teresa-leblic-1772",
+    "manuela-leblic-1773"
+   ],
+   "conyuges_ocultos": 0,
+   "hijos_ocultos": 0,
+   "padres_ocultos": 0
+  },
+  {
+   "id": "trinidad-leblic",
+   "nombre": "Trinidad Leblic",
+   "nacimiento": "",
+   "defuncion": "",
+   "lugar": "",
+   "oficio": "",
+   "padres": [
+    "joaquin-leblic-1802",
+    "antonia-iglesias"
+   ],
+   "conyuges": [
+    "clemente-de-lucas"
+   ],
+   "generacion": 6,
+   "fuente": "árbol impreso, col. 6",
+   "dudoso": false,
+   "conexion_lucas": "por determinar",
+   "datos": "Impreso «Trinidad ( . ) = Clemente de Lucas».",
+   "dudas": [],
+   "notas": [],
+   "otras": {},
+   "hijos": [],
+   "conyuges_ocultos": 0,
+   "hijos_ocultos": 0,
+   "padres_ocultos": 0
+  },
+  {
+   "id": "ventura-leblic-1920",
+   "nombre": "Ventura Leblic",
+   "nacimiento": "1920",
+   "defuncion": "1947",
+   "lugar": "",
+   "oficio": "alcalde (¿de Navahermosa?)",
+   "padres": [
+    "clemente-leblic-1889",
+    "emilia-1889"
+   ],
+   "conyuges": [],
+   "generacion": 8,
+   "fuente": "árbol impreso, col. 8; oficio a mano",
+   "dudoso": true,
+   "conexion_lucas": "por determinar",
+   "datos": "Impreso «Ventura (1920 - 47)». A mano: «alcalde de Navahermosa» (lectura probable).",
+   "dudas": [
+    "El pueblo escrito a mano se lee «Navahermosa», sin seguridad."
+   ],
+   "notas": [],
+   "otras": {},
+   "hijos": [],
+   "conyuges_ocultos": 0,
+   "hijos_ocultos": 0,
+   "padres_ocultos": 0
+  },
+  {
+   "id": "vicenta-leblic",
+   "nombre": "Vicenta Leblic",
+   "nacimiento": "",
+   "defuncion": "",
+   "lugar": "",
+   "oficio": "",
+   "padres": [
+    "antonio-leblic-1851",
+    "petronila-acevedo-1854"
+   ],
+   "conyuges": [],
+   "generacion": 7,
+   "fuente": "árbol impreso, col. 7",
+   "dudoso": false,
+   "conexion_lucas": "por determinar",
+   "datos": "Impreso «Vicenta».",
+   "dudas": [],
+   "notas": [],
+   "otras": {},
+   "hijos": [],
+   "conyuges_ocultos": 0,
+   "hijos_ocultos": 0,
+   "padres_ocultos": 0
+  },
+  {
+   "id": "vicente-leblic-1846",
+   "nombre": "Vicente Leblic",
+   "nacimiento": "1846",
+   "defuncion": "",
+   "lugar": "",
+   "oficio": "",
+   "padres": [
+    "joaquin-leblic-1802",
+    "antonia-iglesias"
+   ],
+   "conyuges": [
+    "maria-francisca"
+   ],
+   "generacion": 6,
+   "fuente": "árbol impreso, col. 6",
+   "dudoso": false,
+   "conexion_lucas": "por determinar",
+   "datos": "Impreso «Vicente (.1846 - ?) = Mª Francisca».",
+   "dudas": [],
+   "notas": [],
+   "otras": {},
+   "hijos": [],
+   "conyuges_ocultos": 0,
+   "hijos_ocultos": 0,
+   "padres_ocultos": 0
+  },
+  {
+   "id": "vicente-leblic-1882",
+   "nombre": "Vicente Leblic",
+   "nacimiento": "1882",
+   "defuncion": "",
+   "lugar": "",
+   "oficio": "",
+   "padres": [
+    "antonio-leblic-1851",
+    "petronila-acevedo-1854"
+   ],
+   "conyuges": [],
+   "generacion": 7,
+   "fuente": "árbol impreso, col. 7",
+   "dudoso": false,
+   "conexion_lucas": "por determinar",
+   "datos": "Impreso «Vicente (.1882 - ?)».",
+   "dudas": [],
+   "notas": [],
+   "otras": {},
+   "hijos": [],
+   "conyuges_ocultos": 0,
+   "hijos_ocultos": 0,
+   "padres_ocultos": 0
+  }
+ ]
+}

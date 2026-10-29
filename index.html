@@ -1,0 +1,184 @@
+<!doctype html>
+<html lang="es">
+<head>
+<meta charset="utf-8">
+<meta name="viewport" content="width=device-width, initial-scale=1">
+<meta name="robots" content="noindex">
+<title>Árbol genealógico Leblic</title>
+<style>
+:root{--papel:#f6f0e4;--tinta:#2b2418;--suave:#7a6d58;--linea:#d8ccb4;--acento:#8a4b2a;--duda:#b07a00}
+*{box-sizing:border-box}
+body{margin:0;font-family:Georgia,'Times New Roman',serif;background:var(--papel);color:var(--tinta);line-height:1.45}
+header{position:sticky;top:0;background:var(--papel);border-bottom:1px solid var(--linea);padding:.6rem .9rem;z-index:5}
+h1{font-size:1.15rem;margin:0}
+.sub{color:var(--suave);font-size:.85rem}
+#buscar{width:100%;margin-top:.5rem;padding:.55rem .7rem;font-size:1rem;border:1px solid var(--linea);border-radius:8px;background:#fffdf8;font-family:inherit}
+main{padding:.7rem .9rem 3rem;max-width:900px;margin:0 auto}
+ul.arbol,ul.arbol ul{list-style:none;margin:0;padding-left:.9rem;border-left:1px dotted var(--linea)}
+ul.arbol{border-left:0;padding-left:0}
+li{margin:.15rem 0}
+details>summary{cursor:pointer;list-style:none}
+details>summary::-webkit-details-marker{display:none}
+details>summary::before{content:'▸';display:inline-block;width:1rem;color:var(--suave)}
+details[open]>summary::before{content:'▾'}
+.hoja::before{content:'·';display:inline-block;width:1rem;color:var(--suave);text-align:center}
+a.p{color:var(--tinta);text-decoration:none;border-bottom:1px solid var(--linea)}
+a.p:hover{color:var(--acento)}
+.anios{color:var(--suave);font-size:.85rem}
+.gen{display:inline-block;font-size:.7rem;color:#fff;background:var(--suave);border-radius:4px;padding:0 .3rem;margin-right:.3rem;font-family:sans-serif}
+.cony{color:var(--suave)}
+.oculto{color:var(--suave);font-style:italic;font-size:.85rem}
+.duda{color:var(--duda);font-size:.8rem}
+.tras{color:var(--suave);font-size:.8rem;margin-left:1rem}
+#resultados a{display:block;padding:.45rem 0;border-bottom:1px solid var(--linea)}
+#ficha{display:none}
+#ficha h2{margin:.2rem 0 .1rem;font-size:1.35rem}
+.campo{margin:.25rem 0}
+.campo b{color:var(--suave);font-weight:normal;display:inline-block;min-width:7.5rem}
+.caja{background:#fffdf8;border:1px solid var(--linea);border-radius:8px;padding:.6rem .8rem;margin:.7rem 0}
+.caja h3{margin:0 0 .3rem;font-size:1rem}
+.nota{border-left:3px solid var(--acento);padding-left:.6rem;margin:.5rem 0}
+.nota small{color:var(--suave);display:block}
+.boton{display:inline-block;background:var(--acento);color:#fff;text-decoration:none;padding:.6rem 1rem;border-radius:8px;font-family:sans-serif;font-size:.95rem;margin:.3rem .3rem .3rem 0}
+.boton.sec{background:#fff;color:var(--acento);border:1px solid var(--acento)}
+footer{color:var(--suave);font-size:.8rem;margin-top:2rem;border-top:1px solid var(--linea);padding-top:.6rem}
+</style>
+</head>
+<body>
+<header>
+  <h1><a class="p" href="#" style="border:0">Árbol genealógico Leblic</a></h1>
+  <div class="sub">De Bruselas a España (1662) · Barcelona, Toledo, Talavera · <span id="cuenta"></span></div>
+  <input id="buscar" type="search" placeholder="Buscar por nombre o año…" autocomplete="off">
+</header>
+<main>
+  <div id="resultados"></div>
+  <div id="vista-arbol"><ul class="arbol" id="arbol"></ul></div>
+  <div id="ficha"></div>
+  <footer id="pie"></footer>
+</main>
+<script>
+const $ = s => document.querySelector(s);
+let D, P = {};
+const esc = s => String(s ?? '').replace(/[&<>"]/g, c => ({'&':'&amp;','<':'&lt;','>':'&gt;','"':'&quot;'}[c]));
+const sinTildes = s => s.normalize('NFD').replace(/[̀-ͯ]/g, '').toLowerCase();
+function anios(p){
+  const n = p.nacimiento, d = p.defuncion;
+  if (!n && !d) return '';
+  return `(${n || '?'}${d ? ' – ' + d : ''})`;
+}
+const enlace = id => `<a class="p" href="#${id}">${esc(P[id].nombre)}</a>`;
+function etiqueta(p){
+  let s = `<span class="gen">${p.generacion}</span>${enlace(p.id)} <span class="anios">${esc(anios(p))}</span>`;
+  if (p.dudoso) s += ' <span class="duda" title="Hay dudas de lectura">?</span>';
+  const c = p.conyuges.map(i => enlace(i) + ' <span class="anios">' + esc(anios(P[i])) + '</span>');
+  if (p.conyuges_ocultos) c.push('<span class="oculto">persona no publicada</span>');
+  if (c.length) s += ` <span class="cony">= ${c.join(' · ')}</span>`;
+  return s;
+}
+const hecho = new Set();
+function nodo(p){
+  hecho.add(p.id); p.conyuges.forEach(c => hecho.add(c));
+  // hijos de esta persona y de sus cónyuges (sin repetir)
+  const hijos = [...new Set([...p.hijos, ...p.conyuges.flatMap(c => P[c].hijos)])].map(i => P[i]).filter(h => !hecho.has(h.id));
+  const ocultos = Math.max(p.hijos_ocultos, ...p.conyuges.map(c => P[c].hijos_ocultos), 0);
+  if (!hijos.length && !ocultos) return `<li class="hoja">${etiqueta(p)}</li>`;
+  let dentro = hijos.map(nodo).join('');
+  if (ocultos) dentro += `<li class="oculto hoja">${ocultos} ${ocultos === 1 ? 'descendiente no publicado' : 'descendientes no publicados'} (posibles vivos)</li>`;
+  return `<li><details ${p.generacion < 8 ? 'open' : ''}><summary>${etiqueta(p)}</summary><ul>${dentro}</ul></details></li>`;
+}
+function pintarArbol(){
+  const raices = D.personas.filter(p => !p.padres.length && !p.conyuges.some(c => P[c].padres.length))
+    .sort((a, b) => a.generacion - b.generacion);
+  let html = '';
+  for (const r of raices) if (!hecho.has(r.id)) html += nodo(r);
+  $('#arbol').innerHTML = html;
+}
+function ficha(id){
+  const p = P[id];
+  if (!p){ $('#ficha').innerHTML = '<p>No hay ficha pública con ese nombre. Puede ser una persona viva (no se publica).</p><a class="boton sec" href="#">Volver al árbol</a>'; return; }
+  const campo = (t, v) => v ? `<div class="campo"><b>${t}</b>${v}</div>` : '';
+  const lista = (ids, ocultos, txt) => {
+    const a = ids.map(i => enlace(i) + ' <span class="anios">' + esc(anios(P[i])) + '</span>');
+    if (ocultos) a.push(`<span class="oculto">${ocultos} ${txt}</span>`);
+    return a.join(' · ');
+  };
+  const notas = p.notas.length
+    ? p.notas.map(n => `<div class="nota">${esc(n.texto)}<small>${esc([n.fecha, n.quien].filter(Boolean).join(' · '))}</small></div>`).join('')
+    : '<p class="oculto">Aún no hay notas. Pulsa «Anotar» y escribe lo que te cuenten.</p>';
+  const otras = Object.entries(p.otras || {}).map(([t, v]) => `<div class="caja"><h3>${esc(t)}</h3><div style="white-space:pre-wrap">${esc(v)}</div></div>`).join('');
+  $('#ficha').innerHTML = `
+    <a class="tras" href="#">← volver al árbol</a>
+    <h2>${esc(p.nombre)}</h2>
+    <div class="anios">Generación ${p.generacion} ${p.dudoso ? '· <span class="duda">con dudas de lectura</span>' : ''}</div>
+    <div class="caja">
+      ${campo('Nacimiento', esc(p.nacimiento))}${campo('Defunción', esc(p.defuncion))}
+      ${campo('Lugar', esc(p.lugar))}${campo('Oficio', esc(p.oficio))}
+      ${campo('Padres', lista(p.padres, p.padres_ocultos, 'no publicado'))}
+      ${campo('Cónyuge', lista(p.conyuges, p.conyuges_ocultos, 'no publicado'))}
+      ${campo('Hijos', lista(p.hijos, p.hijos_ocultos, p.hijos_ocultos === 1 ? 'no publicado' : 'no publicados'))}
+      ${campo('Conexión con Lucas', esc(p.conexion_lucas || 'por determinar'))}
+    </div>
+    <div class="caja"><h3>Notas de familiares</h3>${notas}
+      <a class="boton" href="${D.editar}${encodeURIComponent(p.id)}.md">✎ Anotar</a>
+    </div>
+    <div class="caja"><h3>Lo que dice el árbol</h3><div>${esc(p.datos)}</div>
+      <div class="campo"><b>Fuente</b>${esc(p.fuente)}</div></div>
+    ${p.dudas.length ? `<div class="caja"><h3>Dudas</h3><ul>${p.dudas.map(d => `<li>${esc(d)}</li>`).join('')}</ul></div>` : ''}
+    ${otras}`;
+  window.scrollTo(0, 0);
+}
+function ruta(){
+  const id = decodeURIComponent(location.hash.slice(1));
+  const enFicha = !!id;
+  $('#vista-arbol').style.display = enFicha ? 'none' : '';
+  $('#ficha').style.display = enFicha ? 'block' : 'none';
+  $('#resultados').innerHTML = ''; $('#buscar').value = '';
+  if (enFicha) ficha(id);
+}
+$('#buscar').addEventListener('input', e => {
+  const q = sinTildes(e.target.value.trim());
+  if (!q){ $('#resultados').innerHTML = ''; return; }
+  const r = D.personas.filter(p => sinTildes(`${p.nombre} ${p.nacimiento} ${p.defuncion} ${p.lugar} ${p.oficio}`).includes(q))
+    .sort((a, b) => a.generacion - b.generacion);
+  $('#resultados').innerHTML = r.length
+    ? r.map(p => `<a class="p" href="#${p.id}"><span class="gen">${p.generacion}</span>${esc(p.nombre)} <span class="anios">${esc(anios(p))}</span></a>`).join('')
+    : '<p class="oculto">Nadie con ese nombre en la parte pública.</p>';
+});
+fetch('datos.json', {cache: 'no-cache'}).then(r => r.json()).then(d => {
+  D = d; d.personas.forEach(p => P[p.id] = p);
+  $('#cuenta').textContent = `${d.personas.length} personas`;
+  $('#pie').innerHTML = `Transcrito de un árbol impreso con anotaciones a mano; lo dudoso va marcado con <span class="duda">?</span>.
+    Conexión con Lucas: ${esc(d.conexion_lucas)}. Por privacidad no se publican ${d.ocultas} personas que pueden estar vivas.
+    <br><a class="boton sec" href="${d.carpeta}">Todas las fichas (privado)</a>
+    <a class="boton sec" href="${d.nuevo}?filename=nombre-apellido-anio.md&value=${encodeURIComponent(PLANTILLA)}">+ Añadir persona</a>`;
+  pintarArbol(); ruta();
+});
+const PLANTILLA = `---
+id: nombre-apellido-anio
+nombre:
+nacimiento:
+defuncion:
+lugar:
+oficio:
+padres:
+conyuges:
+generacion:
+fuente: lo cuenta
+dudoso: no
+publicar: auto
+conexion_lucas: por determinar
+---
+
+## Lo que dice el árbol
+
+(no está en el árbol impreso)
+
+## Dudas
+
+## Notas de familiares
+
+`;
+addEventListener('hashchange', ruta);
+</script>
+</body>
+</html>
